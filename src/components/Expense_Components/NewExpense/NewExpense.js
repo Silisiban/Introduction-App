@@ -9,7 +9,6 @@ const NewExpense = (props) => {
       ...formData,
       id: Math.random().toString(),
     };
-    console.log(data);
     props.onExpenseEntry(data);
   };
 

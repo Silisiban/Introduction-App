@@ -34,7 +34,7 @@ const App = () => {
     <div>
       <NewExpense onExpenseEntry={addExpenseItem} />
       <div>
-        <Expenses item={curExpenses} />
+        <Expenses item={curExpenses} filter={curExpenses} />
       </div>
     </div>
   );
